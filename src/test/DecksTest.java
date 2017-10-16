@@ -97,7 +97,7 @@ public class DecksTest {
 	}
 	
 	@Test
-	public void testPopRemove() {
+	public void testPopDoesNotChangeDecksSize() {
 		deck.pop();
 		assertEquals(deck.toString(),51,deck.getDeckSize());
 	}
