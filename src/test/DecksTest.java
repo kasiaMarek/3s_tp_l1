@@ -116,4 +116,10 @@ public class DecksTest {
 		assertEquals(deck.toString(),52,deck.getDeckSize());
 	}
 
+	@Ignore
+	@Test
+	public void testIgnore() {
+		assertEquals( 1.0, 1.2 - 0.2, 3 );
+	}
+
 }
